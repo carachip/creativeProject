@@ -1,80 +1,45 @@
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="creativeStyles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <div id="title">
             <h2>Anyone can cook!</h2>
         </div>
-        <div id="menuBar">
-            <a href="index.html">Home</a>
-            <a href="recipes.html">Recipes</a>
-            <a href="tips.html">Kitchen Tips</a>
-        </div>
+        <nav id="menuBar" class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav justify-content-center w-100">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="recipes.html">Recipes</a></li>
+                <li class="nav-item"><a class="nav-link" href="tips.html">Kitchen Tips</a></li>
+              </ul>
+            </div>
+        </nav>
+
     </head>
+
     <body>
         <div id="body">
             <div id="navigation">
                 Home > Recipes
             </div>
-            <div id="recipe">
-                <h1>Renee's Bread</h1>
-                <div id="description">
-                    <div>
-                        <div class="subheadings">Description</div>
-                        <div id="descriptionBox">
-                            <em>
+            <div id="pageInfo">
+                <div class="subheadings">Breakfast</div>
+                <ul><li><a href="recipes/Crepes.html">Crepes a la Ashley</a></li></ul>
+                <!-- <div class="subheadings">Lunch</div>
+                <div class="subheadings">Dinner</div> -->
+                <div class="subheadings">Bread</div>
+                <ul><li><a href="recipes/ReneesBread.html">Renee's Bread</a></li></ul>
 
-                                This is Renee's famous bread recipe.  My sister Katie told me to never learn it because if I did,
-                                I would most definately gain weight!  Renee got us the 6 quart kitchen aid as a wedding gift, just
-                                in case we needed to bake more than 4 loaves at a time.  After baking this, I now understand why. we
-                                halfed the recipe and our three loaves lasted about 2 days!  Fantastic recipe.
-                            </em>
-                            <div id="descriptionInfo">
-                                <div>
-                                    <div class="subheadings">
-                                        YIELD
-                                    </div>
-                                    <div>
-                                        4 Loaves
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="subheadings">
-                                        TIME
-                                    </div>
-                                    <div>
-                                        3-4 hours
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <img id="image" src="pictures/bread.png">
-                </div>
-                <div id="ingredients">
-                    <div class="subheadings">Ingredients</div>
-                    <ul>
-                        <li>6 cups of warm water or milk</li>
-                        <li>2/3 cups of oil or up to 1 cup of melted butter</li>
-                        <li>2/3 cups of honey or up to 1 cup of sugar</li>
-                        <li>1/3 cup of dough conditioner or enhanced (I prefer honeyville grain)</li>
-                        <li>2 tablespoons of salt</li>
-                        <li>4 eggs (optional)</li>
-                        <li>16 cups (2164 grams) of flour</li>
-                        <li>2-4 tablespoons of yeast</li>
-                    </ul>
-                </div>
-                <div id="Directions">
-                    <div class="subheadings">Directions</div>
-                    <ol>
-                        <li>Adding the flour last, combine ingredients together in a large bowl</li>
-                        <li>Knead dough until thoroughly mixed.  Continue to add flour if still sticky</li>
-                        <li>Leave dough in a warm place with a cloth over the top. Let rise for 1-2 hours</li>
-                        <li>Bake in convection oven on 325 for about 35 minutes</li>
-                    </ol>
-                </div>
             </div>
         </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     </body>
     <footer>
         <a id="footer" href="https://github.com/carachip/creativeProject.git">https://github.com/carachip/creativeProject.git</a>
