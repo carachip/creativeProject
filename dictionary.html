@@ -12,10 +12,10 @@
               </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav justify-content-center w-100">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
                 <li class="nav-item"><a class="nav-link" href="tips.html">Kitchen Tips</a></li>
-                <li class="nav-item"><a class="nav-link" href="dictionary.html">Kitchen Dictionary</a></li>
+                <li class="nav-item active"><a class="nav-link" href="dictionary.html">Kitchen Dictionary</a></li>
               </ul>
             </div>
         </nav>
@@ -23,23 +23,24 @@
     <body>
         <div id="body">
             <div id="navigation">
-                Home
+                Home > Kitchen Dictionary
             </div>
             <div id="pageInfo">
-                <div class="subheadings">A Website for our Favorite Recipes</div>
+                <div class="subheadings">Kitchen Dictionary</div>
                 <div id="descriptionBox">
-                    <p>
-                    
-                        Welcome to Zacharie and my recipe website!  Here we plan to keep our favorite recipes from our parents, pinterest,
-                        or whatever Zach comes up with! I have always loved to cook, but have never spent much time doing it.  Many of our
-                        generous wedding gifts were kitchen equipment and we have been doing our best to put them to good use!
-
-                        And though my mom hates even the thought of cgi rats in the kitchen, Zacharie and I love the movie Ratatouille, 
-                        thus our inspiration for the name of the site.
-                    </p>
+                    <form id="inputForm">
+                        <label>Please enter any kitchen terms you are unfamiliar with into the dictionary!</label>
+                        <div id="inputAndButton">
+                            <input id="userInput" type="text"></input>
+                            <input id="inputSubmit" type="submit" value="Submit"></input>
+                        </div>
+                    </form>
+                    <div id="notFound"></div>
+                    <div id="dictionaryResults"></div>
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="script.js"></script>
     </body>
     <footer>
         <a id="footer" href="https://github.com/carachip/creativeProject.git">https://github.com/carachip/creativeProject.git</a>
